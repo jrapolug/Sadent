@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin : 0px;
+}
+/* common css */
+.front-text{
+    font-size: 2rem;
+    padding: 30px 0px 15px 25px;
+    font-family: 'Merriweather', serif;
+}
+.background-text{
+    font-size: 4rem;
+    color:rgba(0, 0, 0, 0.082);
+    margin: 0px;
+    position: absolute;
+    font-family: 'Merriweather', serif;
+}
+
+/* title section css */
+.navbar-brand,.nav-item{
+    font-family: 'Merriweather', serif;
+}
+.navbar {
+    width:100%;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight:bold;
+}
+.nav-item{
+    font-size: 1rem;
+}
+
+#patent-section {
+    background-color: white;
+    padding: 3% 7% 6% 7%;
+}
+#patent-section p{
+    font-size: 3rem;
+    color: black;
+    font-family: 'Merriweather', serif;
+    
+}
+#title-section{
+    background-color:#A6CF98;
+    padding: 3% 7% 6% 7%;
+}
+#title-section p{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-shadow: 2px 2px grey;
+}
+
+#title-section img{
+    width: 85%;
+    border-radius: 5%;
+}
+.align-center{
+    text-align: center;
+}
+
+/* about section css */
+#about-section{
+    padding: 3% 7% 6% 7%;
+    
+}
+#about-section p{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-shadow: 2px 2px white;
+}
+#about-section img{
+    width: 85%;
+    border-radius: 5%;
+}
+
+/* Innovation section css */
+#Innovation-section{
+    padding: 3% 7% 6% 7%;   
+}
+#Innovation-section p{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Merriweather', serif;
+    text-shadow: 0.25px 0.25px white;
+}
+.Innovation-problem{
+    padding-bottom: 5%;
+}
+.Innovation-problem img{
+    width: 85%;
+    border-radius: 5%;
+}
+.Innovation-solution img{
+    width: 85%;
+    margin-bottom: 3%;
+    border-radius: 5%;
+}
+.Innovation-solution{
+    padding-bottom: 5%;
+}
+.Innovation-status video{
+    width: 95%;
+}
+
+/* gallery css */
+#gallery-section{
+    padding: 3% 7% 6% 7%;   
+}
+.gallery-photo-section{
+    padding-bottom: 5%;
+}
+.carousel-for-mobile{
+    display: none;
+}
+.gallery-img{
+    border-radius: 5%;
+    padding: 2%;
+    width: 85%;
+    text-align: center;
+}
+#gallery-section h3{
+    font-size: 1.75rem;
+    font-family: 'Merriweather', serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0 15%;
+}
+.gallery-images-column{
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.carousel-image{
+    width: 95%;
+}
+.carousel-item{
+    padding: 0% 2% 10% 2%;
+}
+.carousel-indicators [data-bs-target]
+{
+    background-color: black;
+}
+.carousel-control-prev-icon{
+    background-image: url(./angle-left-solid.svg);
+}
+.carousel-control-next-icon{
+    background-image: url(./angle-right-solid.svg);
+}
+@media (max-width:768px){
+    .carousel-for-mobile{
+        display: block;
+    }
+    .gallery-photo-section{
+        display: none;
+    }
+}
+
+.founder-sub-container {
+    
+    margin-left: 20%;
+    font-size:24px;
+    
+
+}
+.founder-name {
+    font-size:28px;
+    margin-left:20%;
+    margin-top:15%;
+    font-weight: bold;
+}
+
+.contact {
+    font-family: 'Merriweather', serif;
+    font-size:24px; 
+    font-weight:bold;
+    color:black;
+    padding:100px;
+    text-align: center;   
+    background-color: #b5d4aade;
+}
